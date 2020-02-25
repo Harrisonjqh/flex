@@ -1,0 +1,132 @@
+*{
+  box-sizing:border-box;
+  border:0px solid black;
+}
+
+body, html {
+  margin:0px;
+  padding: 0px;
+
+}
+body{
+  font-family: sans-serif;
+
+}
+
+
+#navigationBar{
+  border:0px solid black;
+  position:fixed;
+  width:240px;
+  height:100vh;
+  padding-left: 16px;
+
+
+}
+
+#mainContainer{
+  border:0px solid black;
+  margin:240px;
+
+}
+
+#heroBanner{
+  background-image: url(https://cms.qz.com/wp-content/uploads/2019/07/AP_19200286168716.jpg?quality=75&strip=all&w=1600&h=900&crop=1);
+  background-color:#f2f2f2
+
+  border:1px solid black;
+  background-repeat:no-repeat;
+  background-position: center;
+  color:#f2f2f2;
+  padding-left: 64px;
+
+
+}
+#Coronavirus{
+  background-image: url(https://encrypted-tbn0.gstatic.com/images?q=tbn%3AANd9GcR2ppYE2A7DzwGp2kzD62EVYaLedOo9zhDc8y1AuLqT-RPUcdPw);
+  background-color: #f2f2f2;
+
+  background-size: cover;
+  border:1px solid black
+  background-repeat:no-repeat;
+  background-position: center;
+  color:#f2f2f2;
+  padding-left: 64px;
+
+
+}
+
+#mainTitleText{
+
+}
+
+.sectionHeader{
+  text-decoration: line-through;
+}
+
+p{
+  font-size:16pt;
+}
+.thumbnailContainer{
+  display:flex;
+  justify-content: space-between;
+}
+.thumbnailImage{
+  width:300px;
+  height:300%
+}
+
+
+.contentSectionContainer {
+  padding-left:64px;
+  padding-right:64px;
+}
+body{
+  background-color:#f2f2f2;
+  font-family:monospace;
+
+}
+h4{
+  text-align: left;
+  font-size: 18pt;
+    color: #636363;
+    font-family:sans-serif;
+}
+.HongkongPics{
+ align-items: flex-start;
+display:flex;
+flex-direction: row;
+justify-content: space-around;
+align-content: end;
+}
+img{
+  width:auto;
+  height:200px;
+}
+
+.HongkongPics2{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+.HongkongPics3{
+  display:flex;
+  flex-direction:row-reverse;
+  justify-content:space-around;
+
+}
+.viruspics{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+.viruspics2{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
+.viruspics3{
+  display:flex;
+  flex-direction:row;
+  justify-content: space-around;
+}
